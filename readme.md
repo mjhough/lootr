@@ -1,4 +1,4 @@
-![image](https://www.dropbox.com/s/zyuttvv6t3vb6o3/Screenshot 2019-01-05 17.55.11.png)
+![image]("https://www.dropbox.com/s/zyuttvv6t3vb6o3/Screenshot 2019-01-05 17.55.11.png")
 
 # Get your money back from a card that doesn't allow transferring the money out
 

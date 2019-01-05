@@ -13,6 +13,6 @@ STRIPE_KEY=secret_key_here
 STRIPE_PUBLISHABLE=stripe_publishable_here
 CURRENCY=your_currency_here
 ```
-2. Start the server by typing python `app.py`
+2. Start the server by typing `python app.py`
 3. Open `localhost:5000` in your browser and follow the prompts!
 4. Get your money back!

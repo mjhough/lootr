@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Getting your {{ amount }} cents back!</h1>
+  <form action="/charge" method="post">
+    <script src="https://checkout.stripe.com/checkout.js" id="stripe" class="stripe-button"
+            data-key="{{ key }}"
+            data-description="Get your money back!"
+            data-amount="{{ amount }}"
+            data-locale="auto">
+    </script>
+    <input type="hidden" name="amount" value="{{amount}}" />
+  </form>
+{% endblock %}
+

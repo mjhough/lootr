@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+  <form action="/pay" method="get">
+    <label for="amount">Amount in cents</label>
+    <input name="amount" />
+    <input type="submit" value="Go to payment" />
+  </form>
+{% endblock %}
+
